@@ -9,7 +9,7 @@ d = {
   "C Y": 2,
   "C Z": 6,
 }
-with open("2a.txt") as fIn:
+with open("2.txt") as fIn:
   total = 0
   for line in fIn:
     total += d[line.strip()]
